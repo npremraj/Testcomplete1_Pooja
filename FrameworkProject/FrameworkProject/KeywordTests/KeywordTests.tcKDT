@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="components" />
+		<folder name="pages">
+			<folder name="LoginScreen">
+				<child name="LoginTest" key="{81D2FA12-B973-422B-AF19-C93F18AC9AB5}" path="LoginTest.tcKDTest" />
+			</folder>
+			<folder name="OrdersPage">
+				<child name="Nav2OrderPage" key="{F7CC2400-1C50-4D81-A44D-AE4A3DB729E0}" path="Nav2OrderPage.tcKDTest" />
+				<child name="OrderpageValidation" key="{757C3CDE-AB56-448B-A333-33CB2A59D98E}" path="OrderpageValidation.tcKDTest" />
+			</folder>
+			<folder name="ViewAllProduct">
+				<child name="listofproduct" key="{C59374B6-1266-4433-8123-C75E710D98EE}" path="listofproduct.tcKDTest" />
+				<child name="Nav2VAP" key="{F6C4AA53-53DB-4088-9447-1B66BEFFE605}" path="Nav2VAP.tcKDTest" />
+			</folder>
+			<folder name="VewAllOrders">
+				<child name="NAV2vaO" key="{9102AD46-FE30-4E09-9342-0B055D2DE02F}" path="NAV2vaO.tcKDTest" />
+				<child name="checkall" key="{E705FAB1-D50E-4BD4-A716-D786D2C30C92}" path="checkall.tcKDTest" />
+				<child name="uncheckall" key="{68FD2B46-C25B-4CE9-A509-D2E54027A4D7}" path="uncheckall.tcKDTest" />
+				<child name="deleteItem" key="{A0465FF1-5C03-4CC5-99C6-40D0769C1485}" path="deleteItem.tcKDTest" />
+			</folder>
+		</folder>
+		<folder name="test">
+			<child name="Test1" key="{4663A216-ABC1-4727-993B-E77CE55F69F1}" path="Test1.tcKDTest" />
+		</folder>
+		<folder name="UtilBrowsers">
+			<child name="StartEdge" key="{63FF2C3C-565B-4537-9C36-7F9C8E5DD8C5}" path="StartEdge.tcKDTest" />
+			<child name="CloseEdge" key="{47E4166D-5048-460C-B356-52E0B31D4D35}" path="CloseEdge.tcKDTest" />
+		</folder>
+	</children>
+</Root>

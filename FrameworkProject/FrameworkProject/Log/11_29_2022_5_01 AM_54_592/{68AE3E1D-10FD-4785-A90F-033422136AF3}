@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row1">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="start time" type="D" value="44894.2099596065"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="end time" type="D" value="44894.2100118981"/>
+				<Prp name="details" type="S" value="{6D75D941-C3ED-4548-88AB-A779666FBCE0}"/>
+				<Prp name="name" type="S" value="LoginTest [KeywordTests - LoginTest]"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="start time" type="D" value="44894.2100119792"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="end time" type="D" value="44894.2101747569"/>
+				<Prp name="details" type="S" value="{BEB7E0A7-3FDB-435C-91A3-963A8208DC39}"/>
+				<Prp name="name" type="S" value="Nav2OrderPage [KeywordTests - Nav2OrderPage]"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="start time" type="D" value="44894.209660081"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="end time" type="D" value="44894.2099595139"/>
+				<Prp name="details" type="S" value="{910EC7D2-535B-4988-9A93-6FB2CF084DC0}"/>
+				<Prp name="name" type="S" value="StartEdge [KeywordTests - StartEdge]"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>
